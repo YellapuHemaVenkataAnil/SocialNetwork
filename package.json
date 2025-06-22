@@ -1,0 +1,21 @@
+{
+  "name": "social-media-app",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=client",
+    "build": "npm run build --workspace=client",
+    "server": "npm start --workspace=server",
+    "install:client": "npm install --workspace=client",
+    "install:server": "npm install --workspace=server",
+    "install:all": "npm install && npm run install:client && npm run install:server"
+  },
+  "description": "Social media application with React frontend and Express backend",
+  "keywords": ["react", "express", "social-media", "fullstack"],
+  "author": "",
+  "license": "ISC"
+}
