@@ -2,8 +2,8 @@ import React from "react";
 
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home.jsx";
-import SignIn from "./Pages/SignIn";
-import SignUp from "./Pages/SignUp";
+import SignIn from "./Pages/SignIn.jsx";
+import SignUp from "./Pages/SignUp.jsx";
 import Navbar from "./Components/Navbar";
 
 const App = () => {

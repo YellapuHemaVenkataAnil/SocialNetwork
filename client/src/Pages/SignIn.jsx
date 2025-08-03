@@ -15,6 +15,8 @@ const SignIn = () => {
       const response = await axios.post(`${apiURL}/auth/login`, login);
       
       if (response.data && response.data.email) {
+        console.log("SuccessFull.....");
+        
         navigate("/home");
       } else {
         alert("Invalid login credentials");
